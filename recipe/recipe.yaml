@@ -40,14 +40,14 @@ requirements:
     - libxml2-devel
     - zlib
     - openssl
+    - gnutls
+    - p11-kit
+    - nettle
+    - gmp
     - if: linux
       then:
         - libiconv
         - lz4-c
-        - gnutls
-        - p11-kit
-        - nettle
-        - gmp
 
 tests:
   - script:
