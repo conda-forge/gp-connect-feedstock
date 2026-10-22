@@ -12,12 +12,20 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+gmp:
+- '6'
+gnutls:
+- '3.8'
 libxml2_devel:
 - '2.15'
 macos_machine:
 - arm64-apple-darwin20.0.0
+nettle:
+- '3.10'
 openssl:
 - '3.5'
+p11_kit:
+- '0.26'
 rust_compiler:
 - rust
 target_platform:
