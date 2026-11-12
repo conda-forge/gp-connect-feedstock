@@ -1,5 +1,5 @@
 context:
-  version: "3.3.1"
+  version: "3.4.0"
 
 package:
   name: gp-connect
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/yuezk/GlobalProtect-openconnect/releases/download/v${{ version }}/globalprotect-openconnect-${{ version }}.tar.gz
-  sha256: 2ca46a62a143f18c64184efd80617ee320d230ac1f05f844e4c842db6064c81f
+  sha256: b6d1d7647d534a8f3ca9df93980df551df2e177c6683aeb0ec06ae0a993e3f13
 
 build:
-  number: 1
+  number: 0
   skip: win
   script:
     env:
